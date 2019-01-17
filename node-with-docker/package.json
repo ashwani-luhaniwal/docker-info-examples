@@ -1,0 +1,18 @@
+{
+  "name": "node-with-docker",
+  "version": "1.0.0",
+  "description": "Sample node app with docker deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0 src/index.js",
+    "start:prod": "node src/index.js"
+  },
+  "keywords": [
+    "NodeJS_Docker"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
